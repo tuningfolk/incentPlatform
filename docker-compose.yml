@@ -3,7 +3,7 @@ services:
     image: mysql:latest
     container_name: mysql-container
     environment:
-      MYSQL_ROOT_PASSWORD: nitc12345
+      MYSQL_ROOT_PASSWORD: YOUR_PASSWORD
       MYSQL_DATABASE: incent_datamart
     ports:
       - "3306:3306"
